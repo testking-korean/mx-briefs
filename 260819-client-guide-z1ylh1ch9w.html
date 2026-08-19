@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>보고서 링크 안내</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#fbfaf7; --bg2:#f3f0ea; --surface:#ffffff; --ink:#221f1a;
+  --line:rgba(60,50,35,.13); --accent:#7d5a2b; --accent-soft:rgba(125,90,43,.07);
+  --shadow:0 20px 44px -26px rgba(60,45,20,.24), 0 1px 3px rgba(60,45,20,.05);
+}
+:root{--ok:#2f6b4f}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#171512; --bg2:#201d18; --surface:#211e19; --ink:#f0ece3;
+    --line:rgba(230,210,175,.16); --accent:#d6b184; --accent-soft:rgba(214,177,132,.1);
+    --ok:#7fc0a0; --shadow:0 20px 44px -26px rgba(0,0,0,.6), 0 1px 3px rgba(0,0,0,.35);
+  }
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"Gowun Batang",Batang,serif;background:linear-gradient(180deg,var(--bg),var(--bg2));
+  color:var(--ink);font-size:16.5px;line-height:1.85;min-height:100vh}
+.wrap{max-width:720px;margin:0 auto;padding:56px 24px 96px;display:flex;flex-direction:column;gap:44px}
+header{display:flex;flex-direction:column;gap:10px}
+.eyebrow{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:700}
+h1{font-size:31px;font-weight:700;line-height:1.4;text-wrap:balance}
+.lead{opacity:.82}
+.meta{font-size:13.5px;opacity:.6}
+section{display:flex;flex-direction:column;gap:14px}
+h2{font-size:20px;font-weight:700}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:24px;
+  box-shadow:var(--shadow);display:flex;flex-direction:column;gap:12px}
+.urlbox{overflow-x:auto}
+code{font-family:Consolas,monospace;font-size:14px;background:var(--accent-soft);
+  border-radius:6px;padding:3px 8px;white-space:nowrap;display:inline-block}
+dl{display:flex;flex-direction:column;gap:14px}
+dt{font-weight:700;font-size:15.5px;color:var(--accent)}
+dd{font-size:15.5px;opacity:.85}
+.note{background:var(--accent-soft);border:1px solid var(--line);border-radius:16px;padding:18px 22px;
+  display:flex;flex-direction:column;gap:8px}
+.note b{color:var(--accent)}
+.qa{display:flex;flex-direction:column;gap:20px}
+.q{font-weight:700}
+.a{opacity:.85}
+footer{font-size:13.5px;opacity:.6;border-top:1px solid var(--line);padding-top:20px}
+@media (max-width:640px){.wrap{padding:36px 18px 64px;gap:36px}h1{font-size:25px}body{font-size:16px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <span class="eyebrow">스튜디오엠엑스</span>
+  <h1>보고서와 자료를<br>링크로 보내 드립니다</h1>
+  <p class="lead">앞으로 저희가 드리는 성과 보고와 자료는 첨부파일 대신 웹 링크로 갑니다.
+  받으신 링크를 어떻게 열고 다루시면 되는지 안내드립니다.</p>
+  <p class="meta">2026년 8월 19일</p>
+</header>
+
+<section>
+  <h2>여는 방법</h2>
+  <div class="card">
+    <p><b>로그인이나 회원가입은 필요 없습니다.</b> 링크를 누르시면 바로 열립니다.
+    프로그램을 설치하실 필요도 없고, 휴대폰에서도 그대로 보입니다.</p>
+    <p>다만 내용에 따라 <b>열람코드</b>를 물어보는 문서가 있습니다.
+    성과 수치나 전략이 담긴 자료는 혹시 링크가 잘못 전달되어도 열리지 않도록 잠가 두기 때문입니다.
+    코드는 링크와 따로, 담당자가 문자나 통화로 전해 드립니다.</p>
+  </div>
+</section>
+
+<section>
+  <h2>주소를 확인하는 법</h2>
+  <div class="card">
+    <p>저희가 보내는 링크는 아래 형태입니다.</p>
+    <div class="urlbox"><code>testking-korean.github.io/mx-briefs/날짜-주제-무작위코드.html</code></div>
+    <dl>
+      <div><dt>앞의 여섯 자리</dt><dd>문서를 만든 날짜입니다. 260819는 2026년 8월 19일입니다.</dd></div>
+      <div><dt>가운데 단어</dt><dd>어떤 자료인지 나타냅니다.</dd></div>
+      <div><dt>끝의 열 자리</dt><dd>무작위 코드입니다. 주소를 아는 분만 열 수 있게 하는 장치입니다.</dd></div>
+    </dl>
+    <div class="note">
+      <b>확인 부탁드립니다</b>
+      <span>주소가 <code>testking-korean.github.io/mx-briefs/</code> 로 시작하지 않으면 저희가 보낸 문서가 아닙니다.
+      의심스러운 링크를 받으시면 열지 마시고 담당자에게 확인해 주세요.</span>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>자주 묻는 것</h2>
+  <div class="card qa">
+    <div>
+      <p class="q">링크가 안 열립니다</p>
+      <p class="a">지난 자료는 일정 기간이 지나면 정리됩니다. 다시 보셔야 하는 자료가 있으면
+      담당자에게 말씀해 주세요. 파일로 보내 드리거나 링크를 다시 열어 드립니다.</p>
+    </div>
+    <div>
+      <p class="q">보관해 두고 싶습니다</p>
+      <p class="a">링크는 임시 주소라 즐겨찾기로 두시면 나중에 열리지 않을 수 있습니다.
+      오래 보관하실 자료는 <b>파일로 요청</b>해 주시면 보내 드립니다.</p>
+    </div>
+    <div>
+      <p class="q">사내 다른 분께 공유해도 되나요</p>
+      <p class="a">네, 편하게 공유하셔도 됩니다. 다만 열람코드가 걸린 문서라면
+      링크와 코드를 <b>한 메시지에 함께 적지 말아</b> 주세요. 잠가 둔 의미가 없어집니다.</p>
+    </div>
+    <div>
+      <p class="q">왜 파일이 아니라 링크인가요</p>
+      <p class="a">첨부파일은 주고받는 사이 여러 버전이 섞이고, 오래된 자료가 최신인 줄 알고
+      쓰이는 일이 생깁니다. 링크는 항상 최신본 하나만 보여 드립니다.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  스튜디오엠엑스 · 문의는 담당자에게 연락 주세요.
+</footer>
+
+</div>
+</body>
+</html>
